@@ -1,21 +1,17 @@
-import { BlogPosts } from 'app/components/posts'
-
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+      <h1 className="mb-2 text-2xl font-semibold tracking-tighter">
+        Shubham C
       </h1>
+      <h2 className="text-2xl tracking-tighter mb-16">
+        👨‍💻 🤷‍♂️ 😴 🏃 🥾 ⛰️ 🚴
+      </h2>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`Hi, I'm Shubham, I write code sometimes. Here is my favorite GIF, enjoy 
+        `}
       </p>
-      <div className="my-8">
-        <BlogPosts />
-      </div>
+      <img src='https://media.giphy.com/media/kHU8W94VS329y/giphy.gif'></img>
     </section>
   )
 }
