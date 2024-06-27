@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     default: 'Shubham C',
     template: '%s | Shubham C',
   },
-  description: 'This is my portfolio.',
+  description: 'Shubham C.',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'Shubham C',
+    description: 'Shubham C',
     url: baseUrl,
     siteName: 'Shubham C',
     locale: 'en_US',
