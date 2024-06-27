@@ -24,10 +24,6 @@ export default function Footer() {
     {
       href: "https://linkedin.com/in/19shubham11",
       label: "linkedin"
-    },
-    {
-      href: "https://github.com/vercel/examples/tree/main/solutions/blog",
-      label: "source"
     }
   ];
 
