@@ -1,6 +1,6 @@
 import { getBlogPosts } from 'app/blog/utils'
 
-export const baseUrl = 'https://portfolio-blog-starter.vercel.app'
+export const baseUrl = '19shubham11.com'
 
 export default async function sitemap() {
   let blogs = getBlogPosts().map((post) => ({
