@@ -15,18 +15,28 @@ function ArrowIcon() {
   )
 }
 
-export default function Footer() {
-  const links = [
-    {
-      href: "https://github.com/19shubham11",
-      label: "github"
-    },
-    {
-      href: "https://linkedin.com/in/19shubham11",
-      label: "linkedin"
-    }
-  ];
 
+interface footer {
+  href: URL,
+  label: string
+}
+
+const links: footer[] = [
+  {
+    href: new URL("https://github.com/19shubham11"),
+    label: "github"
+  },
+  {
+    href: new URL("https://linkedin.com/in/19shubham11"),
+    label: "linkedin"
+  },
+  {
+    href: new URL('https://strava.com/athletes/44620078'),
+    label: 'strava'
+  }
+];
+
+export default function Footer()  {
   return (
     <footer className="mb-16">
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
@@ -36,7 +46,7 @@ export default function Footer() {
               className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
               rel="noopener noreferrer"
               target="_blank"
-              href={link.href}
+              href={link.href.toString()}
             >
               <ArrowIcon />
               <p className="ml-2 h-7">{link.label}</p>
